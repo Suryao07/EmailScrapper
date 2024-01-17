@@ -1,2 +1,2 @@
 #!/bin/bash
-path EmailScrapper.py
+python3 EmailScrapper.py
