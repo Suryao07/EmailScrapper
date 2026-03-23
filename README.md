@@ -1,6 +1,8 @@
 # 📧 EmailScrapper
+<img width="502" height="534" alt="email" src="https://github.com/user-attachments/assets/6813815c-d9eb-4aa4-8c22-12ef5cbb7d6a" />
 
 A powerful and lightweight Python-based email extraction tool designed to collect email addresses from text files and web pages using regex and web scraping techniques.
+
 
 ---
 
