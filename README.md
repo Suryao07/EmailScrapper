@@ -1,96 +1,107 @@
-# 📧 EmailScrapper — Bulk Email Extraction Tool
+# 📧 EmailScrapper
 
-**EmailScrapper** is a lightweight Python-based tool that extracts email addresses from text content and web pages. It is designed for fast data collection, research purposes, dataset preparation, and automation workflows.
-
-The tool scans input sources using efficient pattern matching techniques and outputs clean, organized email lists for further use.
+A powerful and lightweight Python-based email extraction tool designed to collect email addresses from text files and web pages using regex and web scraping techniques.
 
 ---
 
-## 🚀 Features
+## 🚀 Overview
 
-* ✅ Extracts email addresses from text files and web pages
-* ⚡ Fast and lightweight execution
-* 🔍 Accurate regex-based detection
-* 🌐 Supports URL input for live web scraping
-* 📁 Saves extracted emails into output files
-* 🧩 Easy to modify and extend
+EmailScrapper is a practical automation tool built to extract email addresses efficiently from multiple sources. It supports both local file parsing and live website scraping, making it useful for data collection, research, and cybersecurity-related reconnaissance tasks.
+
+The project demonstrates the application of Python programming, pattern matching, and web scraping to solve real-world data extraction problems.
+
+---
+
+## ✨ Key Features
+
+- 🔍 Extracts email addresses from text files and web pages
+- 🌐 Supports URL-based live web scraping
+- ⚡ Fast and efficient processing
+- 🎯 Accurate detection using Regular Expressions (Regex)
+- 📁 Saves extracted emails into organized output files
+- 🧩 Modular and easy to extend
+- 🖥️ Simple command-line interface
 
 ---
 
 ## 🎯 Use Cases
 
-* 📊 Data collection and research
-* 📬 Building public contact datasets
-* 🧹 Cleaning and validating email lists
-* 🤖 Automation and scripting projects
-* 🧪 Learning web scraping and regex
+- 📊 Data collection and analysis
+- 📬 Building contact datasets
+- 🧹 Cleaning and processing email lists
+- 🤖 Automation workflows
+- 🧪 Learning web scraping and regex techniques
+- 🔐 Basic reconnaissance in cybersecurity
+
+---
+
+## ⚙️ How It Works
+
+EmailScrapper operates in two main modes:
+
+### 📄 File Mode
+- Takes a local text file as input
+- Scans the content using regex
+- Extracts all valid email patterns
+
+### 🌐 URL Mode
+- Takes a website URL as input
+- Sends HTTP requests to fetch page content
+- Parses HTML using BeautifulSoup
+- Extracts emails from the webpage
 
 ---
 
 ## 🛠️ Installation
 
-### Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/Suryao07/EmailScrapper.git
 cd EmailScrapper
-```
 
-### Install dependencies (if required)
+Install dependencies:
 
-```bash
 pip install -r requirements.txt
-```
+▶️ Usage
 
----
+Run the script:
 
-## ▶️ Usage
-
-Run the script using Python:
-
-```bash
 python main.py
-```
 
-Follow the on-screen instructions to provide:
+Then choose input type:
 
-* A file path OR
-* A website URL
+File path
+Website URL
 
-The extracted emails will be saved automatically.
+The extracted emails will be automatically saved in an output file.
 
----
+📦 Requirements
+Python 3.x
+requests
+beautifulsoup4
+🧪 Example Workflow
+Input a website URL
+Tool fetches page content
+Parses HTML structure
+Extracts emails using regex
+Saves results to output file
+🔮 Future Enhancements
+🔁 Duplicate email removal
+🧠 Email validation system
+📊 Export to CSV / JSON formats
+🌍 Domain-based filtering
+📄 Support for PDF and DOCX parsing
+⚡ Multi-threading for faster processing
+🧠 Skills Demonstrated
+Python Programming
+Web Scraping
+Regular Expressions (Regex)
+Data Extraction
+Automation
+👤 Author
 
-## 📦 Requirements
+Surya Pratap Singh
+Cybersecurity Enthusiast | Web Security | Aspiring Red Teamer
 
-* Python 3.x
-* Internet connection (for URL scraping)
-* Required Python libraries (requests, bs4, etc., if used)
-
----
-
-## 🧩 Customization Ideas
-
-You can enhance this project by adding:
-
-* 🌍 Domain filtering
-* 📄 Export to CSV / JSON
-* 📑 PDF and DOCX scanning
-* 🔁 Duplicate removal
-* 🧠 Email validation
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork this repository and submit pull requests.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
+GitHub: https://github.com/Suryao07
